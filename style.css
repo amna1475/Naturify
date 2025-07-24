@@ -1,0 +1,66 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+.textbg{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.text{
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.button1{
+    background-image: url(image1.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+}
+.para{
+    background-color: rgb(43, 41, 41);
+    color: rgb(255, 255, 255);
+     padding: 50px 80px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.button2{
+    position: relative;
+    background-image: url(image2.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    min-height: 50%;
+}
+.para1{
+    background-color: rgb(43, 41, 41);
+    color: #fff;
+    padding: 50px 80px;
+    text-align: center;
+}
+.button3{
+    background-image: url(image3.png);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 50%;
+}
+.grid_container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "I1 I1 I2 I3"
+        "I1 I1 I2 I7"
+        "I4 I5 I6 I7";
+}
