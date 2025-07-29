@@ -4,7 +4,7 @@ This is a simple, static HTML and CSS project that explores the beauty, wonders,
 
 ## 🌍 Live Preview
 
-Click here to explore the site: [Nature Wonders](https://www.earthday.org/)
+Click here to explore the site: [Nature Wonders](https://naturify-six.vercel.app/)
 
 ## 📁 Project Structure
 
